@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.section {
+  padding: 30px;
+  background: url('./sky-bg.png') no-repeat top left;
+  background-size: cover;
+  height: calc(280vh);
+}
+
+.rocket-container {
+  position: fixed;
+  top: 45vh;
+  transition: all;
+}
+
+.down {
+  transform: rotate(160deg);
+}
+
+.up {
+  transform: rotate(-20deg);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
